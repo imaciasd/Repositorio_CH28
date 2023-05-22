@@ -1,0 +1,127 @@
+<!DOCTYPE html><!--Declaración que representa el tipo de documento
+t atyda a los navegadores a mostrar correctamente las páginas web-->
+<html lang="en"><!--Se le conoce como elemento raíz-->
+<head><!--Actua como contenedor de todo lo que se desea incluir en la
+página HTML que no es visible por los visitantes de la página. Incluye
+palabras clave, metadatos, vínculos, etc-->
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página</title>
+</head>
+<body>
+    <p>Parrafo pequeño</p>
+    <!--Etiquetas de cabecera (h1,h2,h3,h4,h5,h6...)-->
+    <!-- <h1>Soy una etiqueta h1</h1>
+    <h2>Soy una etiqueta h2</h2>
+    <h3>Soy una etiqueta h3</h3>
+    <h4>Soy una etiqueta h4</h4>
+    <h5>Soy una etiqueta h5</h5>
+    <h6>Soy una etiqueta h6</h6> -->
+
+    <p>Un <b>parangaricutirimicuaro</b> se caso con una <i>parangaricutirimicuara</i>
+        tuvieron muchos <mark>parangaricutirimicuaritos</mark> en la ciudad de 
+        <u>parangaricutirilandia</u>.
+    </p> 
+    <p>En la ciudad de <del>parangaricutirilandia</del> hay un
+        parangaricutirimizador, el que sea parangaricutirimizado, sera un
+        gran parangaricutirimizador.
+    </p>
+
+    <blockquote cite="http://formacionib.org/noticias/?La-vida-de-un-critico-o-un-criticado#:~:text=Dice%20Ego%2C%20“La%20vida%20de,docentes%20tenemos%20algo%20de%20eso.">
+        <p>"La vida de un crítico es sencilla en muchos aspectos.<sub><strong>Sicierto</strong></sub> 
+        Arriesgamos poco y tenemos poder sobre aquellos que ofrecen 
+        su trabajo y su servicio a nuestro juicio. 
+        Prosperamos con las críticas negativas, divertidas de 
+        escribir y de leer."<sup><em>nocierto</em></sup></p>
+    </blockquote>
+
+    <!--Elementos de formato
+        <b></b> Texto en negrito
+        <i></i> Texto en italikas
+        <mark></mark> Texto resaltado
+        <u></u> subrayado
+        <sub></sub> Subindice
+        <sup></sup> Super índice
+        <del></del> Tachar texto
+        <blockquote></blockquote> Citar
+        <strong></strong> Texto importante
+        <em></em> Texto enfatizado-->
+
+        <!--Etiquetas divisorias y separadores
+        <hr> nos sirve para
+        <br> salto de linea 
+    -->
+    
+    <h3>Atributos de HTML</h3>
+    <!--Los atributos de HTML proporcionan información sobre los elementos de HTML
+    Todos los elementos de HTML pueden tener atributos.
+    Los atributos siempre se van a especificar en la etiqueta de inicio.
+    Vienen en pares de nombres: nombre="valor" 
+
+    -Atributos globales. Se pueden aplicar a todos los elementos del documento, y no dependen de la etiqueta. Entre los atributos globales encontramos:
+        - class: Se usa para especificar un conjunto de elementos. Por ejemplo: <div class="clase1"></div>
+        - id: Se usa para especificar un identificador único para un elemento. Por ejemplo: <div id="id1"></div>
+        - style: Se usa para especificar una propiedad de estilos que se aplicará al elemento. Por ejemplo: <h1 style="color:red;">Hola</h1>
+        - event: Se usa para especificar un evento que se ejecutará en un elemento. 
+        - hidden: Se usa para ocultar un elemento. Por ejemplo hidden="hidden"
+    -->
+    <hr>
+    <p style="color:violet">Un <b style="color:rebeccapurple">parangaricutirimicuaro</b> se caso con una parangaricutirimicuara tuvieron muchos parangaricutirimicuaritos en la ciudad de parangaricutirilandia.
+    </p> 
+
+    <hr>
+
+    <p align="center">En la ciudad de parangaricutirilandia hay un parangaricutirimizador, el que sea parangaricutirimizado sera un gran parangaricutirimizador.
+    </p>
+
+    <p align="right">En la ciudad de parangaricutirilandia hay un parangaricutirimizador, el que sea parangaricutirimizado sera un gran parangaricutirimizador.
+    </p>
+
+    <p align="left">En la ciudad de parangaricutirilandia hay un parangaricutirimizador, el que sea parangaricutirimizado sera un gran parangaricutirimizador.
+    </p>
+
+    <p align="justify">En la ciudad de parangaricutirilandia hay un parangaricutirimizador, el que sea parangaricutirimizado sera un gran parangaricutirimizador.
+    </p>
+    <!--<p align="center"></p>
+        <p align="right"></p>
+        <p align="left"></p>
+        <p align="justify"></p>-->
+    <br>
+    <h3>Etiquetas de enlace</h3>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--
+        Los enlaces nos permiten la nevagación por medio de hipervinculos (links) que realizan una conexión y referencian otros archivos o páginas web dentro de la misma aplicación o externa a la misma.
+
+        Para los enlaces se utiliza la etiqueta "anchor" (ancla) y se representa con una <a>
+        Los principales atributos de anchor son:
+            - href: nos permite definir la ubicación de la página a la que nos vamos a enlazar. Este atributo puede ser una URL externa o un archivo dentro de nuestro proyecto.
+            - _blank: Abre el enlace en una nueva ventana.
+            - _self: Abre el enlace en la misma ventana (valor por default).
+
+        - Rutas absolutas: Son aquellas que definen la ubicación completa de un archivo o una página web, por ejemplo: http://www.google.com.mx
+        - Rutas relativas: Son las que se definen a partir de la posición en la estructura local de la página que lo está refiriendo, es decir, solo indica el orden de directorios. Por ejemplo: /assets/imagenes/meme.jpg
+    -->
+    
+    <a href="http://www.google.com.mx">Da click aquí para visitar el sitio de Google</a>
+    <br>
+    <br>
+    <a href="https://youtu.be/dQw4w9WgXcQ
+    " target="_blank">Trabajo 100% remoto real no feik</a>
+
+    <br>
+    <br>
+
+    <a href="mailto: imaciasd@ipn.mx">Presiona aquí para pedir galletas gratis</a>
+
+    <br>
+    <br>
+
+    <a href="/assets/images/imagen.gif" download>No soy un troyano, confia en mi</a>
+</body>
+</html>
