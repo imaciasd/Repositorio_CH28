@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>HTML Parte 2</title>
+    
+</head>
+<body>
+    <!-- 
+        ***** Tablas en HTML *****
+
+        Una tabla es un conjunto de filas y columnas que continenen información necesaria. Nos sirve para organizar y tener una mejor visibilidad de la información.
+
+            - Celda : Es una intersección entre una fila y columna que contiene información necesaria. En HTML definimos las celdas utilizando la etiqueta <td></td>
+
+            - Fila : Se define mediante la etiqueta <tr></tr>
+
+            - Encabezados : Se define mediante la etiqueta <th></th>
+
+        Para iniciar una tabla en HTML, se define la etiqueta <table></table> y se divide en dos partes:
+            - Cabeza de la tabla <thead></thead>
+            - Cuerpo de la tabla <tbody></tbody>
+    -->
+
+    <table>
+        <caption>Lista de Personas</caption>
+        <thead>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>País</th>
+        </thead>
+        <tbody>
+            <tr >
+                <td>Harry Deep</td>
+                <td>25</td>
+                <td>Gran Bretaña</td>
+            </tr>
+            <tr>
+                <td>John Smith</td>
+                <td>35</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Ram Krishna</td>
+                <td>19</td>
+                <td>Nepal</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Tabla 2
+    Crear una tabla donde muestres el nombre, el apellido del entrenador pokemon y su pokemon base
+    -->
+    <!-- 
+        Para agregar un titulo a la tabla utilizaremos la etiqueta <caption>
+    -->
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <table>
+        <caption>Maestros Pokemon</caption>
+        <thead>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Pokémon</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ash</td>
+                <td>Mostaza</td>
+                <td><a href="https://www.pokemon.com/el/pokedex/pikachu" target="_blank">Pikachu</a><br><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" id="pikachu"></td>
+            </tr>
+            <tr>
+                <td>Brock</td>
+                <td>Stalker</td>
+                <td><a href="https://www.pokemon.com/el/pokedex/onix">Onix</a></td>
+            </tr>
+            <tr>
+                <td>Misty</td>
+                <td>Water</td>
+                <td><a href="https://www.pokemon.com/el/pokedex/psyduck">Psyduck</a></td>
+            </tr>
+            <tr>
+                <td>Gary</td>
+                <td>Oak</td>
+                <td><a href="https://www.pokemon.com/el/pokedex/blastoise">Blastoise</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Diseña un horario de clases de Lunes a viernes con 3 horarios: (8-9); (9-10); y de (10-11); con las materias que gustes. -->
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <table id="horario">
+        <caption>Horarios</caption>
+            <thead>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8:00 - 9:00</td>
+                    <td>Español</td>
+                    <td>Matemáticas</td>
+                    <td>Física</td>
+                    <td>Química</td>
+                    <td>Ciencias Naturales</td>
+                </tr>
+                <tr>
+                    <td>9:00 - 10:00</td>
+                    <td>Ciencias Naturales</td>
+                    <td>Química</td>
+                    <td>Español</td>
+                    <td>Física</td>
+                    <td>Matemáticas</td>
+                </tr>
+                <tr>
+                    <td>10:00-11:00</td>
+                    <td>Química</td>
+                    <td>Física</td>
+                    <td>Matemáticas</td>
+                    <td>Ciencias Naturales</td>
+                    <td>Español</td>
+                </tr>
+            </tbody>
+    </table>
+</body>
+</html>

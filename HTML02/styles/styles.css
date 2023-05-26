@@ -1,0 +1,49 @@
+/* table {
+    border-style: solid;
+}
+
+td{
+    border-style: solid;
+} */
+
+table, th, td{
+    border: 2px solid rebeccapurple;
+    border-collapse:collapse;
+    border-style:dotted;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+}
+
+td{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:yellow;
+}
+
+#pikachu {
+    width: 50px;
+}
+
+td{
+    background-color:cadetblue;
+    color: white;
+    font-weight: lighter;
+}
+
+th{
+    background-color: red;
+    color:yellow;
+    font-weight: bolder;
+}
